@@ -72,22 +72,12 @@ public class SeleniumApi {
                     dcaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, AboutSeleniumDriver.WIN_PLANTOMJS_DRIVER.getDriverPath());
                     // 创建无界面浏览器对象
                     webDriver = new PhantomJSDriver(dcaps);
-
-
-
-                    /*System.setProperty(AboutSeleniumDriver.WIN_PLANTOMJS_DRIVER.getDriverName(), AboutSeleniumDriver.WIN_PLANTOMJS_DRIVER.getDriverPath());
-                    //PhantomJSDriver PhantomJSDriver = new PhantomJSDriver();
-                    webDriver = new PhantomJSDriver();*/
                     break;
             }
         }else if(System.getProperty("os.name").toLowerCase().contains("linux")){
             switch (browser) {
                 case "phantomjs":
-
-
-
-
-                    System.setProperty(AboutSeleniumDriver.LINUX_PLANTOMJS_DRIVER.getDriverName(), AboutSeleniumDriver.WIN_PLANTOMJS_DRIVER.getDriverPath());
+                    System.setProperty(AboutSeleniumDriver.LINUX_PLANTOMJS_DRIVER.getDriverName(), AboutSeleniumDriver.LINUX_PLANTOMJS_DRIVER.getDriverPath());
                     //PhantomJSDriver PhantomJSDriver = new PhantomJSDriver();
                     webDriver = new PhantomJSDriver();
                     break;
