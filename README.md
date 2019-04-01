@@ -6,7 +6,7 @@ selenium前端自动测测试（包括无界面和有界面两种方式）
 ### 二、目录介绍
 
 | 目录 | 介绍   |
-| :-------- :|: -----:|
+| -------- |-----:|
 | src\test\java\api| 封装selenium、db操作、常用的工具类 |
 | src\test\java\api\canstants| 一些成员变量  |
 | src\test\java\api\DB|   一些数据库操作   |
