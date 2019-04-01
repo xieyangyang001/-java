@@ -33,10 +33,16 @@ selenium前端自动测测试（包括无界面和有界面两种方式）
     + 写一个测试方法名字对应excel的sheet
 
 ####2、excel介绍
+
+
 | case_id| desc|requestUrl |elementJson|assertElementJSON|assertSqlElementJson|assertSqlJson|retryCount|browsers|
 | --------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 |测试用例的id| 测试用例描述| 请求地址|页面需要操作的元素| 断言需要的元素|断言需要的sql对应的元素 |断言需要的sql|重复次数（暂不支持）|浏览器名称（例如chrome只支持小写） |
 
+
+| case_id| desc|requestUrl|
+| --------|-----:|-----:|
+|测试用例的id| 测试用例描述|请求地址|
 
 ####3、测试类的测试方法介绍
 ```java
