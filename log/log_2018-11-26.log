@@ -1,0 +1,9 @@
+2018-11-26 11:10:35 [api.DB.DBCommon]-[ERROR] 查询sql失败，sql语句：select * from school
+2018-11-26 11:12:44 [api.DB.DBCommon]-[ERROR] 查询sql失败，sql语句：select * from school
+2018-11-26 15:40:42 [api.DB.DBCommon]-[ERROR] 查询sql失败，sql语句：select * from ce
+2018-11-26 15:51:57 [api.DB.DBCommon]-[ERROR] 查询sql失败，sql语句：select * from c
+2018-11-26 15:55:47 [api.DB.DBCommon]-[ERROR] 查询sql失败，sql语句：select * from c
+2018-11-26 15:58:31 [api.DB.DBCommon]-[ERROR] 查询sql失败，sql语句：select * from c
+2018-11-26 16:14:08 [api.DB.DBCommon]-[ERROR] 执行sql失败，sql语句：UPDATE `ce_shi`.`ce` SET `name` = '测试2' WHERE `id` = '2';UPDATE `ce_shi`.`ce` SET `name` = '测试2' WHERE `id` = '1'
+2018-11-26 16:16:50 [api.DB.DBCommon]-[ERROR] 执行sql失败，sql语句：UPDATE `ce_shi`.`ce` SET `name` = '测试2' WHERE `id` = '2';UPDATE `ce_shi`.`ce` SET `name` = '测试2' WHERE `id` = '1'
+2018-11-26 16:19:53 [api.DB.DBCommon]-[ERROR] 执行sql失败，sql语句：UPDATE `ce_shi`.`ce` SET `name` = '测试2' WHERE `id` = '2';UPDATE `ce_shi`.`ce` SET `name` = '测试2' WHERE `id` = '1'

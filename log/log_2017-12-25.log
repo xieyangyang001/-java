@@ -1,0 +1,72 @@
+2017-12-25 13:31:37 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2017-12-25 13:31:37 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@670b40af, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4923ab24, org.springframework.test.context.support.DirtiesContextTestExecutionListener@44c8afef]
+2017-12-25 13:31:37 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from URL [file:/E:/javacode/testSeleniumAndAppium/target/classes/spring-config.xml]
+2017-12-25 13:31:38 [org.springframework.context.support.GenericApplicationContext]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@5e57643e: startup date [Mon Dec 25 13:31:38 CST 2017]; root of context hierarchy
+2017-12-25 13:31:38 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[WARN] No MyBatis mapper was found in '[suiTangWeb.suiTangData]' package. Please check your configuration.
+2017-12-25 13:31:38 [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-25 13:31:38 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-12-25 13:31:39 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-12-25 13:31:43 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试开始了#################################
+2017-12-25 13:31:44 [suiTangWeb.page.LoginPage]-[INFO] 用户名查找成功^_^
+2017-12-25 13:31:44 [suiTangWeb.page.LoginPage]-[INFO] 密码查找成功^_^
+2017-12-25 13:31:44 [suiTangWeb.page.LoginPage]-[INFO] 登录查找成功^_^
+2017-12-25 13:31:46 [suiTangWeb.page.LoginPage]-[INFO] 错误弹窗查找成功^_^
+2017-12-25 13:31:46 [suiTangWeb.page.LoginPage]-[INFO] 错误内容查找成功^_^
+2017-12-25 13:31:46 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试结束了#################################
+2017-12-25 13:31:46 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试开始了#################################
+2017-12-25 13:31:46 [suiTangWeb.page.LoginPage]-[INFO] 用户名查找成功^_^
+2017-12-25 13:31:46 [suiTangWeb.page.LoginPage]-[INFO] 密码查找成功^_^
+2017-12-25 13:31:46 [suiTangWeb.page.LoginPage]-[INFO] 登录查找成功^_^
+2017-12-25 13:31:48 [suiTangWeb.page.LoginPage]-[INFO] 错误弹窗查找成功^_^
+2017-12-25 13:31:48 [suiTangWeb.page.LoginPage]-[INFO] 错误内容查找成功^_^
+2017-12-25 13:31:48 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试结束了#################################
+2017-12-25 13:31:48 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试开始了#################################
+2017-12-25 13:31:48 [suiTangWeb.page.LoginPage]-[INFO] 用户名查找成功^_^
+2017-12-25 13:31:48 [suiTangWeb.page.LoginPage]-[INFO] 密码查找成功^_^
+2017-12-25 13:31:48 [suiTangWeb.page.LoginPage]-[INFO] 登录查找成功^_^
+2017-12-25 13:31:50 [suiTangWeb.page.LoginPage]-[INFO] 错误弹窗查找成功^_^
+2017-12-25 13:31:50 [suiTangWeb.page.LoginPage]-[INFO] 错误内容查找成功^_^
+2017-12-25 13:31:50 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试结束了#################################
+2017-12-25 13:31:50 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试开始了#################################
+2017-12-25 13:31:50 [suiTangWeb.page.LoginPage]-[INFO] 用户名查找成功^_^
+2017-12-25 13:31:50 [suiTangWeb.page.LoginPage]-[INFO] 密码查找成功^_^
+2017-12-25 13:31:50 [suiTangWeb.page.LoginPage]-[INFO] 登录查找成功^_^
+2017-12-25 13:31:52 [suiTangWeb.page.LoginPage]-[INFO] 错误弹窗查找成功^_^
+2017-12-25 13:31:52 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试结束了#################################
+2017-12-25 13:31:52 [org.springframework.context.support.GenericApplicationContext]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@5e57643e: startup date [Mon Dec 25 13:31:38 CST 2017]; root of context hierarchy
+2017-12-25 14:07:20 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2017-12-25 14:07:20 [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@670b40af, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4923ab24, org.springframework.test.context.support.DirtiesContextTestExecutionListener@44c8afef]
+2017-12-25 14:07:20 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from URL [file:/E:/javacode/testSeleniumAndAppium/target/classes/spring-config.xml]
+2017-12-25 14:07:21 [org.springframework.context.support.GenericApplicationContext]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@5e57643e: startup date [Mon Dec 25 14:07:21 CST 2017]; root of context hierarchy
+2017-12-25 14:07:21 [org.mybatis.spring.mapper.ClassPathMapperScanner]-[WARN] No MyBatis mapper was found in '[suiTangWeb.suiTangData]' package. Please check your configuration.
+2017-12-25 14:07:21 [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-25 14:07:21 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-12-25 14:07:21 [org.springframework.jdbc.datasource.DriverManagerDataSource]-[INFO] Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-12-25 14:07:25 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试开始了#################################
+2017-12-25 14:07:26 [suiTangWeb.page.LoginPage]-[INFO] 用户名查找成功^_^
+2017-12-25 14:07:26 [suiTangWeb.page.LoginPage]-[INFO] 密码查找成功^_^
+2017-12-25 14:07:26 [suiTangWeb.page.LoginPage]-[INFO] 登录查找成功^_^
+2017-12-25 14:07:28 [suiTangWeb.page.LoginPage]-[INFO] 错误弹窗查找成功^_^
+2017-12-25 14:07:28 [suiTangWeb.page.LoginPage]-[INFO] 错误内容查找成功^_^
+2017-12-25 14:07:28 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试结束了#################################
+2017-12-25 14:07:28 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试开始了#################################
+2017-12-25 14:07:29 [suiTangWeb.page.LoginPage]-[INFO] 用户名查找成功^_^
+2017-12-25 14:07:29 [suiTangWeb.page.LoginPage]-[INFO] 密码查找成功^_^
+2017-12-25 14:07:29 [suiTangWeb.page.LoginPage]-[INFO] 登录查找成功^_^
+2017-12-25 14:07:30 [suiTangWeb.page.LoginPage]-[INFO] 错误弹窗查找成功^_^
+2017-12-25 14:07:30 [suiTangWeb.page.LoginPage]-[INFO] 错误内容查找成功^_^
+2017-12-25 14:07:30 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试结束了#################################
+2017-12-25 14:07:30 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试开始了#################################
+2017-12-25 14:07:31 [suiTangWeb.page.LoginPage]-[INFO] 用户名查找成功^_^
+2017-12-25 14:07:31 [suiTangWeb.page.LoginPage]-[INFO] 密码查找成功^_^
+2017-12-25 14:07:31 [suiTangWeb.page.LoginPage]-[INFO] 登录查找成功^_^
+2017-12-25 14:07:32 [suiTangWeb.page.LoginPage]-[INFO] 错误弹窗查找成功^_^
+2017-12-25 14:07:33 [suiTangWeb.page.LoginPage]-[INFO] 错误内容查找成功^_^
+2017-12-25 14:07:33 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试结束了#################################
+2017-12-25 14:07:33 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试开始了#################################
+2017-12-25 14:07:33 [suiTangWeb.page.LoginPage]-[INFO] 用户名查找成功^_^
+2017-12-25 14:07:33 [suiTangWeb.page.LoginPage]-[INFO] 密码查找成功^_^
+2017-12-25 14:07:33 [suiTangWeb.page.LoginPage]-[INFO] 登录查找成功^_^
+2017-12-25 14:07:35 [suiTangWeb.page.LoginPage]-[INFO] 错误弹窗查找成功^_^
+2017-12-25 14:07:35 [suiTangWeb.test.loginTest]-[INFO] #################################登录测试结束了#################################
+2017-12-25 14:07:35 [org.springframework.context.support.GenericApplicationContext]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@5e57643e: startup date [Mon Dec 25 14:07:21 CST 2017]; root of context hierarchy
