@@ -28,7 +28,7 @@ selenium前端自动测测试（包括无界面和有界面两种方式）
 
 #### 1、例子
 + 例子：
-    + 在excel目录新建一个Test.xls文件，下面介绍一下excle
+    + 在excel目录新建一个Test.xls文件
     + 在写测试类的包下写一个叫Test.java的测试类
     + 写一个测试方法名字对应excel的sheet
 
@@ -56,6 +56,6 @@ public class Test extends ParseExcel {
 ```
 
 ### 联系方式
-如有帮助请联系邮箱地址：1396925801@qq.com , this all , 三克油 :smile:
+如有帮助请联系邮箱地址：1396925801@qq.com , this is all , 三克油 :smile:
 
 ----
