@@ -44,6 +44,7 @@ public class ProcessService {
         cases.setAssertSqlJson(testData.get("assertSqlJson"));
         cases.setRetryCount(testData.get("retryCount"));
         cases.setBrowsers(testData.get("browsers"));
+        cases.setCookieManager(testData.get("cookieManager"));
         return cases;
     }
 
@@ -71,6 +72,7 @@ public class ProcessService {
             try {
                 executeSelenium(cases,webDriver);
                 executeAssert(cases,webDriver);
+
             }catch (Exception e){
                 System.out.println("案例执行失败");
             }finally {

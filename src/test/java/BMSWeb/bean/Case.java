@@ -2,6 +2,9 @@ package BMSWeb.bean;
 
 
 import com.alibaba.fastjson.JSONArray;
+import org.openqa.selenium.Cookie;
+
+import java.util.Set;
 
 /**
  * Created by XieYangYang on 2018/11/23.
@@ -27,6 +30,8 @@ public class Case {
     public String retryCount;
     //浏览器
     public String browsers;
+    //cookie管理，1是获取当前结果cookie往cookieValue存值（默认1），2是当前cookieValue有值
+    public String cookieManager;
 
     public String getBrowsers() {
         return browsers;
@@ -125,5 +130,17 @@ public class Case {
 
     public void setRetryCount(String retryCount) {
         this.retryCount = retryCount;
+    }
+
+    public String getCookieManager() {
+        return cookieManager;
+    }
+
+    public void setCookieManager(String cookieManager) {
+        if(cookieManager==""||cookieManager==null){
+            this.cookieManager="1";
+        }else{
+            this.cookieManager = cookieManager;
+        }
     }
 }

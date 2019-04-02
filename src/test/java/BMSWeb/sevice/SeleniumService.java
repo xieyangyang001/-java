@@ -3,15 +3,18 @@ package BMSWeb.sevice;
 import BMSWeb.bean.Case;
 import api.DB.DBCommon;
 import api.canstants.PathFileCanstant;
+import api.cookie.CookieManager;
 import api.frame.SeleniumApi;
 import api.util.PictVerification;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import java.io.File;
+import java.util.Set;
 
 /**
  * Created by XieYangYang on 2018/12/3.
@@ -91,6 +94,40 @@ public class SeleniumService {
             for (String key : jsonObject.keySet()) {
                 Assert.assertEquals(webElement, jsonObject.getString(key));
             }
+        }
+    }
+
+
+    /**
+     * cookieManager类赋值到selenium的cookie
+     * @param webDriver
+     * @param cases
+     */
+    public static void cookieManagertoselenium(WebDriver webDriver, Case cases) throws Exception {
+        CookieManager cookieManager=CookieManager.getCookieManager();
+        if(cases.getCookieManager().equals("2")){
+            Set<Cookie>  cookies=cookieManager.getCookieValues();
+            if(cookies!=null){
+                for(Cookie cookie:cookies){
+                    webDriver.manage().addCookie(cookie);
+                }
+            }else{
+                webDriver.quit();
+                throw new Exception("当需要加入cookie的时候cookie不能为空");
+            }
+        }
+    }
+
+
+    /**
+     * selenium的cookie赋值到cookieManager类
+     * @param webDriver
+     * @param cases
+     */
+    public static void seleniumToCookieManager(WebDriver webDriver, Case cases){
+        CookieManager cookieManager=CookieManager.getCookieManager();
+        if(cases.getCookieManager().equals("1")){
+            cookieManager.setCookieValues(webDriver.manage().getCookies());
         }
     }
 }

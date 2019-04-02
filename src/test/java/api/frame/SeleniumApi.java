@@ -58,28 +58,13 @@ public class SeleniumApi {
                     webDriver = new InternetExplorerDriver(internetExplorerOptions);
                     break;
                 case "phantomjs":
-                    // 设置必要参数
-                    DesiredCapabilities dcaps = new DesiredCapabilities();
-                    // ssl证书支持
-                    dcaps.setCapability("acceptSslCerts", true);
-                    // 截屏支持
-                    dcaps.setCapability("takesScreenshot", true);
-                    // css搜索支持
-                    dcaps.setCapability("cssSelectorsEnabled", true);
-                    // js支持
-                    dcaps.setJavascriptEnabled(true);
-                    // 驱动支持
-                    dcaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, AboutSeleniumDriver.WIN_PLANTOMJS_DRIVER.getDriverPath());
-                    // 创建无界面浏览器对象
-                    webDriver = new PhantomJSDriver(dcaps);
+                    webDriver = new PhantomJSDriver(dcaps(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, AboutSeleniumDriver.WIN_PLANTOMJS_DRIVER.getDriverPath()));
                     break;
             }
-        }else if(System.getProperty("os.name").toLowerCase().contains("linux")){
+        } else if (System.getProperty("os.name").toLowerCase().contains("linux")) {
             switch (browser) {
                 case "phantomjs":
-                    System.setProperty(AboutSeleniumDriver.LINUX_PLANTOMJS_DRIVER.getDriverName(), AboutSeleniumDriver.LINUX_PLANTOMJS_DRIVER.getDriverPath());
-                    //PhantomJSDriver PhantomJSDriver = new PhantomJSDriver();
-                    webDriver = new PhantomJSDriver();
+                    webDriver = new PhantomJSDriver(dcaps(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, AboutSeleniumDriver.LINUX_PLANTOMJS_DRIVER.getDriverPath()));
                     break;
             }
         }
@@ -90,6 +75,28 @@ public class SeleniumApi {
         }
         return webDriver;
     }
+
+    /**
+     * phantomjs驱动管理
+     *
+     * @return DesiredCapabilities
+     */
+    public DesiredCapabilities dcaps(String phantomjsPath, String phantomjsAlias) {
+        // 设置必要参数
+        DesiredCapabilities dcaps = new DesiredCapabilities();
+        // ssl证书支持
+        dcaps.setCapability("acceptSslCerts", true);
+        // 截屏支持
+        dcaps.setCapability("takesScreenshot", true);
+        // css搜索支持
+        dcaps.setCapability("cssSelectorsEnabled", true);
+        // js支持
+        dcaps.setJavascriptEnabled(true);
+        // 驱动支持
+        dcaps.setCapability(phantomjsPath, phantomjsAlias);
+        return dcaps;
+    }
+
 
     /**
      * 公用代码模块
